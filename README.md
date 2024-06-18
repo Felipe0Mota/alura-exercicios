@@ -1,7 +1,8 @@
 # alura-exercicios
-Minha resolução dos exercícios no curso "Lógica de programação: mergulhe em programação com JavaScript
 
-### Aula 1
+### Minha resolução dos exercícios no curso "Lógica de programação: mergulhe em programação com JavaScript
+
+#### Aula 1
 
 Desafio 1
 
@@ -189,3 +190,95 @@ Desafio 13
 let randInt1000 = parseInt(Math.random() * 1000 + 1);
 console.log(randInt1000);
 ```
+
+
+### Curso "Lógica de programação: explore funções e listas"
+
+#### Aula 1
+
+```js
+let titulo = document.querySelector('h1');
+titulo.innerHTML = 'Hora do Desafio';
+
+function botaoConsole() {
+    console.log('O botão foi clicado!');
+}
+
+function botaoAlerta() {
+    alert('Eu amo JS');
+}
+
+function botaoPrompt() {
+    let cidade = prompt('Qual a última cidade que você visitou?');
+    alert(`Estive em ${cidade} e lembrei de você`);
+}
+
+function botaoSoma() {
+    let num1 = parseInt(prompt('Digite o primeiro número para somar:'));
+    let num2 = parseInt(prompt('Digite o segundo número para somar'));
+    let soma = num1 + num2
+
+    alert(`${num1} + ${num2} = ${soma}`);
+}
+```
+
+#### Aula 2
+
+Desafio 1
+```js
+exibirOla();
+
+function exibirOla() {
+    console.log('Olá, mundo!');
+}
+```
+
+Desafio 2
+```js
+exibirOlaNome('Felipe');
+
+function exibirOlaNome(nome) {
+    console.log(`Olá, ${nome}!`);
+}
+```
+
+Desafio 3
+```js
+let resultadoDobro = calcularDobro(5);
+console.log(resultadoDobro);
+
+function calcularDobro(numero) {
+    return numero * 2;
+}
+```
+
+Desafio 4
+```js
+let media = calcularMedia(4, 7, 10);
+console.log(media);
+
+function calcularMedia(a, b, c) {
+    return (a + b + c) / 3;
+}
+```
+
+Desafio 5
+```js
+let maiorNumero = encontrarMaior(70, 47);
+console.log(maiorNumero);
+
+function encontrarMaior(a, b) {
+    return a > b ? a : b;
+}
+```
+
+Desafio 6
+```js
+let resultado = quadrado(2);
+console.log(resultado);
+
+function quadrado(numero) {
+    return Math.pow(numero, 2);
+}
+```
+
