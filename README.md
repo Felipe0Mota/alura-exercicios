@@ -286,15 +286,8 @@ function quadrado(numero) {
 
 Desafio 1
 ```js
-let altura = 1.69;
-let peso = 65;
-
-calculoIMC(altura, peso);
-
 function calculoIMC(altura, peso) {
   let imc = peso / (altura ** 2);
-  console.log(imc.toFixed(2));
-  return imc;
 }
 ```
 
@@ -306,10 +299,35 @@ calculoFatorial(num);
 function calculoFatorial(num) {
   let n = num;
   let fatorial = n;
+  if (n == 0 || n == 1) {
+    return 1;
+  }
+
   while(n >= 2) {
     fatorial *= (n - 1);
     n--;
   }
+  return fatorial;
+}
+```
+
+Desafio 2 v2
+
+```js
+let numero = 5;
+let resultado = calcularFatorial(numero);
+console.log(`O fatorial de ${numero} é ${resultado}`);
+
+function calcularFatorial(numero) {
+  if (numero === 0 || numero === 1) {
+    return 1;
+  }
+
+  let fatorial = 1;
+  for (let i = 2; i <= numero; i++) {
+    fatorial *= i;
+  }
+
   return fatorial;
 }
 ```
