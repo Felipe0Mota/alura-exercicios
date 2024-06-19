@@ -1,6 +1,6 @@
 # alura-exercicios
 
-Minha resolução dos exercícios no curso "Lógica de programação: mergulhe em programação com JavaScript
+Minha resolução dos exercícios no curso "Lógica de programação: mergulhe em programação com JavaScript"
 -----------
 ### Aula 1
 
