@@ -282,3 +282,55 @@ function quadrado(numero) {
 }
 ```
 
+### Aula 3
+
+Desafio 1
+```js
+let altura = 1.69;
+let peso = 65;
+
+calculoIMC(altura, peso);
+
+function calculoIMC(altura, peso) {
+  let imc = peso / (altura ** 2);
+  console.log(imc.toFixed(2));
+  return imc;
+}
+```
+
+Desafio 2
+```js
+let num = 7;
+calculoFatorial(num);
+
+function calculoFatorial(num) {
+  let n = num;
+  let fatorial = n;
+  while(n >= 2) {
+    fatorial *= (n - 1);
+    n--;
+  }
+  return fatorial;
+}
+```
+
+Desafio 3
+```js
+
+```
+
+Desafio 4
+```js
+
+```
+
+Desafio 5
+```js
+
+```
+
+Desafio 6
+```js
+
+```
+
